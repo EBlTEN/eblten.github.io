@@ -36,7 +36,7 @@ header .headline {
 #search-wrap {
   position: absolute; /*絶対配置にして*/
   z-index: 2; /*最前面に設定。数字は変更可*/
-  top: 10px;
+  top: 7px;
   right: 10px;
 }
 
@@ -45,9 +45,9 @@ header .headline {
   -webkit-appearance: none; /*SafariやChromeのデフォルトの設定を無効*/
   width: 30px; /*テキスト入力エリアが伸びる前の横幅*/
   height: 30px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 5px;
-  background:#fff url("../img/search-solid.svg") no-repeat 3px center; /*虫眼鏡アイコンを背景に表示*/
+  background:#333 url("../icon/search-solid.svg") no-repeat 3px center; /*虫眼鏡アイコンを背景に表示*/
   background-size: 25px 25px;
   transition: all 0.5s; /*transitionを使ってスムースに伸ばす*/
   outline: none;
@@ -60,6 +60,7 @@ header .headline {
   height: 30px;
   padding: 0px 0 0px 40px;
   box-shadow: 0 2px rgba(6, 0, 1, 0.26);
+  color: #fff
 }
 
 #Contents{
